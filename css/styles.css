@@ -131,6 +131,11 @@ footer {
     height: auto;
 }
 
+.mini-size {
+    width: 40%; 
+    height: auto; 
+}
+
 /* Contact Form Styles */
 form {
     display: flex;
@@ -167,4 +172,32 @@ form button {
 
 form button:hover {
     background-color: var(--accent-color); 
+}
+/* Contact Section */
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.contact-item i {
+    color: #4682B4; 
+    font-size: 1.5em;
+}
+
+.contact-item strong {
+    font-weight: bold;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #003366;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: #4682B4; 
 }
